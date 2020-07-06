@@ -7,9 +7,12 @@
   composer = "Alan Holdsmorth et le Trio Pat Smythe"
 }
 
+\score {
+  
 \relative 
 {
   \set Score.proportionalNotationDuration = #(ly:make-moment 1/16)
+  \tempo 4=180
   \time 4/4
   r4. < a' cis gis' b>8-. r < a cis gis' b >-. r < a cis gis' b >~ | < a cis gis' b >4 < a cis gis' b >2. |
   < f aes e' g>4. < f aes e' g>8-. r < f aes e' g >-. r < g bes fis' a >~ | <g bes fis' a  >4 < f aes e' g >2. |
@@ -23,7 +26,11 @@
   \grace cis8 ( d4.) c8 d\glissando e c4-. | r4.  a8\glissando   b4 (  \tuplet 3/2 {bes16 a g}) a8~  |
   \tuplet 3/2 {a4 b g~} \tuplet 3/2 {g2 fis4} | r2 \grace dis8 (e8\3) fis\2 g a-4  \glissando |
   \key bes \major
-  bes c\1 g4~ g4. aes8~ | aes bes f4~ f4. g8~ | g \glissando (aes) f'-.
+  bes c\1 g4~ g4. aes8~ | aes bes f4~ f4. g8~ |
+  g \glissando (aes) f'-. r8 r2 | r8 \grace fis8 g4 (fis16) c g'4. 
   
-
+  
+  
+  }
+  \midi {}
 }
