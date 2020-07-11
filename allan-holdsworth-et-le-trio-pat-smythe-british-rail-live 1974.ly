@@ -27,10 +27,11 @@
   \tuplet 3/2 {a4 b g~} \tuplet 3/2 {g2 fis4} | r2 \grace dis8 (e8\3) fis\2 g a-4  \glissando |
   \key bes \major
   bes c\1 g4~ g4. aes8~ | aes bes f4~ f4. g8~ |
-  g \glissando (aes) f'-. r8 r2 | r8 \grace fis8 g4 (fis16) c g'4 f16 c g'16 (aes)~ |
-  aes2. g16 aes g f g d f ees d32 c16. r8 c16 b bes aes bes a aes f | aes ees d ees g bes aes g aes bes b d c b c d 
-  | ees g f ees d
-  
+  g \glissando (aes) f'-. r8 r2 | r8 \grace fis8 g4 fis16 c g'4 f16 c g'16 (aes)~ |
+  aes2. g16 aes g f g d-2 f ees d32 c16. r8 c16 b bes aes bes a aes f  |\tuplet 5/4 { \tuplet 5/4  {aes8-1 ees-1 d ees g} \tuplet 6/4 {bes aes g aes bes b } |
+  \tuplet 6/4 {d c b c d ees} \tuplet 6/4 {g f ees d c bes \glissando }} fis8 gis a b |
+  \key e \major
+  d8 c16 b c8 gis b a fis4~ | fis8 f \tuplet 3/4 {e d e~} e2
   
   
   
