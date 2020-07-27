@@ -24,7 +24,7 @@
   r4. b8 (c) e fis (g~) |g2 b8 g4 a8~ |
   a8 (b a4~ a) c4-. | r1 |
   \grace cis8 ( d4.) c8 d\glissando e c4-. | r4.  a8\glissando   b4 (  \tuplet 3/2 {bes16 a g}) a8~  |
-  \tuplet 3/2 {a4 b g~} \tuplet 3/2 {g2 fis4} | r2 \grace dis8 (e8\3) fis\2 g a-4  \glissando |
+  a8 b g4~ g8 fis8 r4 | r2 \grace dis8 (e8\3) fis\2 g a-4  \glissando |
   \key bes \major
   bes c\1 g4~ g4. aes8~ | aes bes f4~ f4. g8~ |
   g \glissando (aes) f'-. r8 r2 | r8 \grace fis8 g4 fis16 c g'4 f16 c g'16 (aes)~ |
