@@ -4,7 +4,7 @@
 \header{
   title = "British Rail - Guitar Solo"
   subtitle = "1974 Live Broadcast"
-  composer = "Alan Holdsmorth et le Trio Pat Smythe"
+  composer = "Allan Holdsworth et le Trio Pat Smythe"
 }
 
 \score {
